@@ -92,6 +92,8 @@ public class UserMain {
         // Compare with singleton
         User singletonUser = User.getInstance();
         System.out.println("Singleton User: " + singletonUser.toString());
-        System.out.println("Are they the same? " + (builderUser == singletonUser));
+        System.out.println("Builder and Singleton are different classes from different packages");
+        System.out.println("Builder User class: " + builderUser.getClass().getName());
+        System.out.println("Singleton User class: " + singletonUser.getClass().getName());
     }
 }

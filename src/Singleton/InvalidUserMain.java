@@ -6,7 +6,7 @@ import java.lang.reflect.Field;
 public class InvalidUserMain {
 
     public static void main(String[] args) {
-        Singleton.InvalidUser user1 = new InvalidUser();
+        InvalidUser user1 = new InvalidUser();
         System.out.println("Default User: " + user1.toString());
 
         try {
